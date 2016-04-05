@@ -1,0 +1,45 @@
+{
+  "name": "lambda-update-alias-cli",
+  "version": "0.0.0",
+  "description": "Update or create a AWS lambda alias",
+  "license": "MIT",
+  "repository": "SamVerschueren/lambda-update-alias-cli",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "bin": {
+    "lambda-alias": "cli.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "aws",
+    "lambda",
+    "alias",
+    "update",
+    "create"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "lambda-update-alias": "^1.0.0",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  }
+}
